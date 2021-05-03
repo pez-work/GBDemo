@@ -655,27 +655,7 @@
                 15,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                0,
-                0,
-                15,
-                15,
-                15,
-                15,
-                0,
+                4,
                 0,
                 0,
                 0,
@@ -695,6 +675,7 @@
                 15,
                 15,
                 15,
+                4,
                 0,
                 0,
                 0,
@@ -706,8 +687,15 @@
                 0,
                 0,
                 0,
+                15,
+                15,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                4,
                 0,
                 0,
                 0,
@@ -726,6 +714,8 @@
                 0,
                 0,
                 0,
+                8,
+                4,
                 0,
                 0,
                 0,
@@ -744,6 +734,8 @@
                 0,
                 0,
                 0,
+                8,
+                4,
                 0,
                 0,
                 0,
@@ -762,6 +754,8 @@
                 0,
                 0,
                 0,
+                8,
+                4,
                 0,
                 0,
                 0,
@@ -775,6 +769,12 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
                 15,
                 15,
                 15,
@@ -1225,19 +1225,43 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "465b859d-6b03-47c1-b3ac-382b3aa9b4ea",
-                            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
-                            "args": {
-                                "actorId": "$self$"
-                            }
-                        },
-                        {
-                            "id": "623113e3-6440-496e-8b90-a53a5928d088",
-                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                            "id": "e0ded830-16fe-4949-8823-688e225574a8",
+                            "command": "EVENT_IF_ACTOR_DIRECTION",
                             "args": {
                                 "actorId": "$self$",
-                                "x": 17,
-                                "y": 0
+                                "direction": "left",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "465b859d-6b03-47c1-b3ac-382b3aa9b4ea",
+                                        "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "id": "623113e3-6440-496e-8b90-a53a5928d088",
+                                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 18,
+                                            "y": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "c81ce931-5028-451c-b19d-a4cdc613416d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "074e1b12-cdb3-4a3c-8320-d92ca266e28a",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -1256,20 +1280,51 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "68d08041-911e-40af-93e7-e520aed2c7df",
-                            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                            "id": "e8134d1f-0d52-4a6a-af30-5e1e1baa93aa",
+                            "command": "EVENT_IF_ACTOR_DIRECTION",
                             "args": {
                                 "actorId": "$self$",
-                                "x": -17,
-                                "y": 0
+                                "direction": "right",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "99a3075d-064a-4263-a566-4fed5aa9e38b",
+                                        "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "__collapse": false
+                                        }
+                                    },
+                                    {
+                                        "id": "bfeaf71b-f7e4-4c3e-8888-4c4a50a65c58",
+                                        "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": -18,
+                                            "y": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "3aa5dd31-f0ed-41c8-b677-54f21ab6231d",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "ee72150d-d240-48ad-b219-622e0223c427",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
                             }
                         },
                         {
-                            "id": "098db884-bd4d-49ac-92cf-db8e2e6717cc",
+                            "id": "400e6131-fdf4-4585-beee-aa80faebf539",
                             "command": "EVENT_END"
                         }
                     ],
-                    "id": "dc15d2a5-17cc-445e-b8d2-4665e29cd6e3",
+                    "id": "c38d390a-25fe-4a0a-a459-06938250ab4b",
                     "x": 19,
                     "y": 12,
                     "width": 1,
@@ -2387,8 +2442,8 @@
         "startY": 0,
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 640,
-        "worldScrollY": 282,
+        "worldScrollX": 929,
+        "worldScrollY": 385,
         "zoom": 200,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [

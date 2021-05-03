@@ -2198,8 +2198,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bgsplash.png",
-            "inode": "12889391703",
-            "_v": 1605138657276
+            "inode": "8665431544",
+            "_v": 1605304638071
         },
         {
             "id": "3b5a2d89-3e6c-4bd5-9cde-3dbaeb436476",
@@ -2209,8 +2209,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bigroom.png",
-            "inode": "12889399671",
-            "_v": 1605139738763
+            "inode": "8665431546",
+            "_v": 1605304638071
         },
         {
             "id": "ed6fb17e-7f42-453e-9f87-051979e275d7",
@@ -2220,8 +2220,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "inside.png",
-            "inode": "12889390658",
-            "_v": 1605138657276
+            "inode": "8665431547",
+            "_v": 1605304638071
         },
         {
             "id": "77f49b13-eeff-451b-b69e-6321fd2c2940",
@@ -2231,8 +2231,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "outside.png",
-            "inode": "12889388756",
-            "_v": 1605138657276
+            "inode": "8665431548",
+            "_v": 1605304638071
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -2242,8 +2242,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "12889386344",
-            "_v": 1605138657276
+            "inode": "8665431549",
+            "_v": 1605304638071
         },
         {
             "id": "f8457dfc-c280-4220-b7c7-5d5fbbd987e4",
@@ -2253,8 +2253,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "room2.png",
-            "inode": "12889399461",
-            "_v": 1605139450000
+            "inode": "8665431550",
+            "_v": 1605304638071
         }
     ],
     "spriteSheets": [
@@ -2264,8 +2264,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "12889386350",
-            "_v": 1605138657276
+            "inode": "8665431554",
+            "_v": 1605304638071
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -2273,8 +2273,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "12889386352",
-            "_v": 1605138657276
+            "inode": "8665431555",
+            "_v": 1605304638071
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -2282,8 +2282,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "12889386354",
-            "_v": 1605138657276
+            "inode": "8665431556",
+            "_v": 1605304638071
         }
     ],
     "palettes": [
@@ -2431,8 +2431,8 @@
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "12889386347",
-            "_v": 1605138657274
+            "inode": "8665431552",
+            "_v": 1605304638062
         }
     ],
     "variables": [],
@@ -2442,8 +2442,8 @@
         "startY": 0,
         "showCollisions": false,
         "showConnections": true,
-        "worldScrollX": 929,
-        "worldScrollY": 385,
+        "worldScrollX": 617,
+        "worldScrollY": 296,
         "zoom": 200,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [

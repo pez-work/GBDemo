@@ -189,10 +189,9 @@ AREA .  .ABS.
 		l__HOME	0252
 		l__GSINIT	0517
 		l__DATA	0E22
-		l__CODE_5	2037
+		l__CODE_5	2043
 		l__CODE	2EB5
 		s__HOME	30B5
-		l__CODE_6	32E8
 		s__BASE	3307
 		l__CODE_4	34DF
 		s__LIT	354C
@@ -200,6 +199,7 @@ AREA .  .ABS.
 		l__CODE_1	3905
 		s__GSINITTAIL	3A63
 		s__GSFINAL	3A64
+		l__CODE_6	3B42
 		s__CODE_1	4000
 		s__CODE_4	4000
 		s__CODE_5	4000
@@ -1026,36 +1026,36 @@ AREA _XSEG
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 32E8
+	SIZE 3B42
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 2037
+	SIZE 2043
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
 		_background_bank_ptrs	4006
-		_background_attr_bank_ptrs	400F
-		_palette_bank_ptrs	4018
-		_sprite_bank_ptrs	4024
-		_scene_bank_ptrs	4027
-		_collision_bank_ptrs	4030
-		_avatar_bank_ptrs	4039
-		_music_tracks	403C
-		_music_banks	4040
-		_Start_Adventure	4042
-		_Update_Adventure	4057
-		_Start_Platform	4657
-		_Update_Platform	4723
-		_Start_PointNClick	5303
-		_Update_PointNClick	532C
-		_Start_Shmup	55E7
-		_Update_Shmup	5677
-		_Start_TopDown	5C19
-		_Update_TopDown	5C2E
+		_background_attr_bank_ptrs	4012
+		_palette_bank_ptrs	401E
+		_sprite_bank_ptrs	402A
+		_scene_bank_ptrs	402D
+		_collision_bank_ptrs	4039
+		_avatar_bank_ptrs	4045
+		_music_tracks	4048
+		_music_banks	404C
+		_Start_Adventure	404E
+		_Update_Adventure	4063
+		_Start_Platform	4663
+		_Update_Platform	472F
+		_Start_PointNClick	530F
+		_Update_PointNClick	5338
+		_Start_Shmup	55F3
+		_Update_Shmup	5683
+		_Start_TopDown	5C25
+		_Update_TopDown	5C3A
 AREA _SFR0
 	RADIX HEX
 	BASE 0000
@@ -1461,120 +1461,120 @@ AREA .  .ABS.
 	GLOBALS
 		.__.ABS.	0000
 MODULES
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Actor_a.o
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Actor_b.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsywp†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Actor.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw0†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/asm.macros.o
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/BankData.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw%†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/BankManager.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw∞)†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Camera_a.o
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Camera.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsywP.†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Collision.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw@2†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Core_Main.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsywÄG†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/DataManager.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw‡S†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/FadeManager_b.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw [†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/FadeManager.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsywp_†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/gbt_player_bank1.o
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/gbt_player.o
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Input.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsywPo†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Math.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw–r†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/MusicManager.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw‡y†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Palette.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw¿ÏÓ⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Projectiles_b.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw–o†‹ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Projectiles.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsywúNÆ]˘
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/ScriptRunner_b.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw ,·⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/ScriptRunner.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsywP„⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Scroll_a.o
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Scroll_b.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw∞"‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Scroll.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsywê‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Sprite_b.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw–f‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Sprite.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw`j‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Stack.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsywPl‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Trigger_b.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw†)‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Trigger.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw–+‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/UI_b.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw–7‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/UI.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw@C‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/bank_6.o
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Actor_a.o
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Actor_b.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Actor.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_‡»Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/asm.macros.o
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/BankData.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_†"»Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/BankManager.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_`&»Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Camera_a.o
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Camera.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Collision.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_.»Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Core_Main.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_0D»Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/DataManager.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_¿U¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/FadeManager_b.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/FadeManager.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_Pa¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/gbt_player_bank1.o
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/gbt_player.o
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Input.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_q¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Math.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_êt¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/MusicManager.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_†{¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Palette.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_∞¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Projectiles_b.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_∞Ç¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Projectiles.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_@Ü¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/ScriptRunner_b.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_êë¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/ScriptRunner.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_Äµ¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Scroll_a.o
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Scroll_b.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_`º¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Scroll.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_ ¿¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Sprite_b.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_¿ƒ¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Sprite.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_P»¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Stack.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_@ ¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Trigger_b.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_pÃ¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Trigger.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_œ¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/UI_b.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_€¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/UI.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_ÄÊ¿Oø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/bank_6.o
 		NAME bank_6
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/data_ptrs.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw¿I‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/main.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw@O‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Adventure.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw†Q‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Platform.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw`T‡⁄ï
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/PointNClick.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/Shmup.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw
-	FILE /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbsbuild/obj/TopDown.o
-		NAME _var_folders_m3_vv5lz_k94tg_tsyw`^‡⁄ï
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/data_ptrs.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/main.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_†ÏÒOø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Adventure.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_†iıOø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Platform.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_∞nOø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/PointNClick.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_†ROø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/Shmup.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_‡ZıOø
+	FILE /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbsbuild/obj/TopDown.o
+		NAME _var_folders_vr_wzcwfn0n649dy0v_ 5ıOø
 LIBRARIES
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_prop.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE asm_string.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE rand.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE cgb.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE mv_spr.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE bgb_emu.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE div.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE mul.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_wi_t.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_data.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE pad.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE __sdcc_call_hl.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_spr.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE strcat.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE strlen.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE cpy_data.o
-	LIBRARY /var/folders/m3/vv5lz_k94tg_tsywffd2gp100000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /var/folders/vr/wzcwfn0n649dy0v_2g877gdh0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_xy_t.o
 USERBASEDEF
 	_CODE=0x0200
